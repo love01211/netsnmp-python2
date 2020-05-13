@@ -1,10 +1,10 @@
 python2的netsnmp模块
 
-环境：
+环境：  
 python 2.7  
 snmpd 5.7.2  
 
-安装使用：
+安装使用：  
 python setup.py build  
 python setup.py test  
 #上面都不报错，再执行此步骤，否则也不可用  
