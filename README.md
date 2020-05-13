@@ -1,12 +1,13 @@
 python2的netsnmp模块
 
 环境：  
+centos 7
 python 2.7  
-snmpd 5.7.2  
+snmpd 5.7.2  （net-snmp-devel、net-snmp-utils）
 
 安装使用：  
 python setup.py build  
-python setup.py test  
+python setup.py test  （ERROR: testFuncs (netsnmp.tests.test.SetTests)此报错不影响）
 #上面都不报错，再执行此步骤，否则也不可用  
 python setup.py install  
 
